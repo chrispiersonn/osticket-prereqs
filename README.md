@@ -150,11 +150,14 @@ On the right, click “Browse *:80”
 <p>
 18) Note that some extensions are not enabled
 Go back to IIS, sites -> Default -> osTicket
+
 Double-click PHP Manager
+  
 Click “Enable or disable an extension”
 Enable: php_imap.dll
 Enable: php_intl.dll
 Enable: php_opcache.dll
+
 Refresh the osTicket site in your browser, observe the changes
 </p>
 <br />
@@ -186,9 +189,13 @@ Default email (receives email from customers)
 ![image](https://github.com/user-attachments/assets/00be2732-4e5a-49f1-ae52-f14fec25cb98)
 <p>
 22) From the “osTicket-Installation-Files” folder, install HeidiSQL.
+
 Open Heidi SQL
+
 Create a new session, root/root
+
 Connect to the session
+
 Create a database called “osTicket”
 </p>
 <br />
@@ -206,7 +213,9 @@ Click “Install Now!”
 ![image](https://github.com/user-attachments/assets/d3dd3b6a-d75b-4314-9ec0-7aa8a17b785d)
 <p>
 24) Clean up
+
 Delete: C:\inetpub\wwwroot\osTicket\setup
+
 Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 </p>
 <br />
